@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1 id="heading1">ROCK PAPER SCISSOR</H1>
+    <br><br><br>
+    <div>
+
+        <div id="head" >
+            <header >ENTER YOUR CHOICE</header>
+            <br>
+            <br>
+            <img id="ques" src="question-marks.jpg" alt="YOUR CHOSEN"width="200px"height="200px" ;align=" center">
+            
+        </div>
+        <div id="head2" >
+            <header>  COMPUTER CHOICE</header>
+            <br>
+            <br>
+            <img id="comp" src="compgame.jpeg" alt="COMPUTER CHOSEN" ;width="200px"height="200px" ;align="center">          
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <h2 id=res></h2>
+    
+    <form action="">
+        <div id="rock"> 1.<br> <img src="rock.png" alt="rock"width="200px"height="200px"></div> 
+        <div id="scissor"> 2. <br><img src="scissor.png" alt="scissor"height="200px" width="200px"></div> 
+        <div id="hand">3.<br> <img src="hand.png" alt="hand"width="200px"height="200px"></div>
+        <h2 id="result">PLEASE A CHOOSE A OPTION FROM ABOVE </h2> 
+        <select id="option" name="cars">
+            <option value="1">1. rock</option>
+            <option value="2">2. scissor</option>
+            <option value="3">3. paper </option>
+
+        </select>
+        <!-- <input type="button" value="submit" onclick="check_winner()">
+        <input type="submit" onclick="check_winner()"> -->
+            <button id="but" type="button" onclick="check_winner()">submit</button>
+    </form>
+    
+</body>
+</html>

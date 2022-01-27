@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(153, 241, 153);
+}
+#heading1{
+    text-align: center;
+    background-color: cadetblue;
+    color: darkblue;
+    text-shadow: 100px;
+    text-decoration: yellow;
+    
+}
+#head{
+    float: left; 
+    width: 40%;
+/* padding-left: 50px; */
+    background-color: rgb(176, 241, 230);
+    color: rgb(98, 0, 255);
+    text-align: center;
+}
+#head2{
+    position: relative; 
+    float: right;  
+    width: 50%;
+    background-color: aquamarine;
+    text-align: center;
+    color: brown;
+}
+#rock{
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#scissor{
+    float: left;
+    padding-left: 100px; 
+    padding-right: 100px;
+
+}
+#paper{
+    float: left; 
+    padding-left: 100px;
+    padding-right: 100px;
+}
+form{
+    background-color: chocolate;
+    text-align: center;
+    color: turquoise;
+}
+#result{
+    color: yellowgreen;
+}
+#but{
+    background-color: darkolivegreen;
+}
+select{
+    background-color: aqua;
+
+}
+#res{
+    background-color: chartreuse;
+    text-align: center;
+    
+}
